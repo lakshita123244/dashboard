@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI';
+  background: #f1f5f9; /* light background */
+  color: #0f172a; /* dark text */
+}
+
+/* LOGIN */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 220px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px 15px;
+  background: #2563eb;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+/* DASHBOARD */
+#dashboard { display: none; }
+
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background: #ffffff;
+  position: fixed;
+  padding: 10px;
+  border-right: 1px solid #e2e8f0;
+}
+
+.sidebar h2 {
+  color: #2563eb;
+}
+
+.sidebar div {
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.sidebar div:hover {
+  background: #e2e8f0;
+}
+
+.content {
+  margin-left: 230px;
+  padding: 20px;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 130px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.card span {
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.high-card {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: white;
+}
+
+td, th {
+  border: 1px solid #e2e8f0;
+  padding: 10px;
+}
+
+th {
+  background: #f8fafc;
+}
+
+/* COLORS */
+.high { color: red; }
+.medium { color: orange; }
+
+/* MAP */
+.map {
+  height: 200px;
+  background: #e2e8f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+/* SEARCH */
+.search {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
+
+/* CHARTS */
+.charts {
+  display: flex;
+  gap: 20px;
+}
+
+canvas {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
